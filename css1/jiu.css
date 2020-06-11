@@ -1,0 +1,223 @@
+/* 清除元素默认的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 清除列表样式 */
+li {
+    list-style: none;
+}
+body {
+    background-color: #fff;
+    /* 方便写代码 一会别忘了删除 */
+    height: 5000px;
+}
+/* 清除浮动的 */
+.nav
+{
+	clear:both;
+}
+/* 上方栏开始 */
+.nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(40, 42, 44, .6);
+    z-index: 999;
+}
+.pa {
+    float: left;
+    width: 1920px;
+    height: 136px;
+    background: rgba(66,64,64,.2)
+    
+}
+.wa {
+    float: left;
+    width: 1920px;
+    height: 60px;
+    background: rgba(66,64,64,.2)
+}
+.wa a {
+    width: 200px;
+    height: 40px;
+    padding: 0px 10px;
+    line-height: 40px;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 855px auto;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul {
+    margin-left: 423px;
+    width: 700px;
+    height: 100%;
+    /* background: rgba(40, 42, 44, .6); */
+    /* margin: auto; */
+}
+.nav ul li a {
+    display: block;
+    height: 40px;
+    padding: 0px 10px;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.gg {
+    float: left;
+    width: 1920px;
+    height: 50px;
+    background: rgba(66,64,64,.2)
+}
+.gg a {
+    width: 200px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 680px auto;
+}
+.cc {
+    float: left;
+    width: 1920px;
+    height: 80px;
+    background: rgba(66,64,64,.2)
+}
+/* 鼠标经过链接  才有底边框 */
+.nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+/* 博客主标题结束 */
+/* 内容篇 */
+.jj {
+    float: left;
+    /* margin-top: 22px;
+    margin-left: 385px; */
+    /* 外边距margin值 上 右 下 左 规范来写的 */
+    margin: 22px 0 0 385px;
+    width: 750px;
+    height: 66px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.pp {
+    float: left;
+    margin: 22px 0 0 385px;
+    width: 750px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+.pp p {
+    margin-top: 70px;
+    font-size: 50px;
+}
+.ll {
+    float: left;
+    margin: 22px 0 0 385px;
+    width: 750px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.uu {
+    float: left;
+    margin: 22px 0 0 385px;
+    width: 750px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.yy {
+    float: right;
+    margin: 22px 385px 0 0;
+    width: 360px;
+    height: 228px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.yy img {
+    /* margin-top: 71px;
+    margin-left: 130px; */
+    margin: 71px 0 0 130px;
+    width: 90px;
+    height: 90px;
+    border: rgba(255,255,255,.4) 2px solid;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+.text-center{
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.text-center {
+    text-align: center;
+}
+/* 文章部分 */
+.tt {
+    position: relative;
+    float: right;
+    margin-top: 22px;
+    margin-right: 385px;
+    width: 360px;
+    height: 302px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.wz {
+    margin-top: 10px;
+}
+.wz ul li a {
+    height: 30px;
+    margin-left: 35px;
+    padding: 10px 5px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+/* 鼠标经过链接  才有底边框 */
+.wz ul li a:hover {
+    border-bottom: 3px solid#00a4ff;
+}
+.tt ul li {
+    float: left;
+}
+.wezhang {
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 300px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0);
+}
+.wezhang ul li a {
+    width: 280px;
+    float: left;
+    padding: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-transition: color .3s;
+    color: #666;
+    border-bottom: 1px dashed #b4afaf;
+    transition: color .10s;
+    font-size: 16px;
+}
+/* 内容结束 */
+/* 背景图像 */
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #205424 url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302) no-repeat top 
+    center fixed;
+    background-size: cover;
+}
+/* 背景图像 */
